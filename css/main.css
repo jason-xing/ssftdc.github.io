@@ -1,5 +1,4 @@
 a {
-  color: #52b6ec;
   -webkit-transition: 300ms;
   -moz-transition: 300ms;
   -o-transition: 300ms;
@@ -18,12 +17,6 @@ a {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
-}
-a:hover,
-a:focus {
-  color: #80c9f1;
-  text-decoration: none;
-  outline: none;
 }
 #header {
   position: fixed;
@@ -396,7 +389,7 @@ ul.social {
   padding: 0;
 }
 ul.social > li {
-  margin: 0 0 20px;
+  margin: 0 0 10px;
 }
 ul.social > li > a {
   display: block;
