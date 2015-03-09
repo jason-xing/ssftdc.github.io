@@ -1,3 +1,6 @@
+body {
+  background: #e5e5e5;
+}
 a {
   -webkit-transition: 300ms;
   -moz-transition: 300ms;
@@ -266,6 +269,11 @@ a {
 }
 #services .box {
   padding-bottom: 0;
+  border-radius: 5px 5px 0 0;
+  margin-top: -20px;
+}
+#contact .box {
+    border-radius: 0 0 5px 5px;
 }
 #services .row > div {
   margin-bottom: 50px;
@@ -401,6 +409,43 @@ ul.social > li > a i {
 textarea#message {
   padding: 10px 15px;
   height: 220px;
+}
+#intro .box {
+  background: #fffffd;
+}
+#skills .box {
+  background: #fdffff;
+}
+#cost .box {
+  background: #fffdff;
+}
+#work-process .box {
+  background: #fdfdff;
+}
+#meet-team .box {
+  background: #fdfdfd;
+}
+#work-process .icon-circle {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border: 2px solid #45aed6;
+  border-radius: 100px;
+  position: relative;
+}
+#work-process .icon-circle > span {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #45aed6;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  line-height: 20px;
+  top: -12px;
+  color: #64686d;
 }
 @keyframes scaleUp {
   0% {
